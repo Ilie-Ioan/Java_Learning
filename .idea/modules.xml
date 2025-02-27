@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/POJO/POJO.iml" filepath="$PROJECT_DIR$/POJO/POJO.iml" />
       <module fileurl="file://$PROJECT_DIR$/Person/Person.iml" filepath="$PROJECT_DIR$/Person/Person.iml" />
       <module fileurl="file://$PROJECT_DIR$/SumCalculator/SumCalculator.iml" filepath="$PROJECT_DIR$/SumCalculator/SumCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Wall Area Computation/Wall Area Computation.iml" filepath="$PROJECT_DIR$/Wall Area Computation/Wall Area Computation.iml" />
     </modules>
   </component>
 </project>
