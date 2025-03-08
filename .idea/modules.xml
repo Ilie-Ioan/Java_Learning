@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Animal_Inheritance/Animal_Inheritance.iml" filepath="$PROJECT_DIR$/Animal_Inheritance/Animal_Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bedroom Composition/Bedroom Composition.iml" filepath="$PROJECT_DIR$/Bedroom Composition/Bedroom Composition.iml" />
       <module fileurl="file://$PROJECT_DIR$/Carpet Cost Calculator Class/Carpet Cost Calculator Class.iml" filepath="$PROJECT_DIR$/Carpet Cost Calculator Class/Carpet Cost Calculator Class.iml" />
       <module fileurl="file://$PROJECT_DIR$/Complex Number Operations/Complex Number Operations.iml" filepath="$PROJECT_DIR$/Complex Number Operations/Complex Number Operations.iml" />
       <module fileurl="file://$PROJECT_DIR$/ComputerFactory/ComputerFactory.iml" filepath="$PROJECT_DIR$/ComputerFactory/ComputerFactory.iml" />
@@ -10,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/Customer/Customer.iml" filepath="$PROJECT_DIR$/Customer/Customer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cylinder Class with Circle Inheritance/Cylinder Class with Circle Inheritance.iml" filepath="$PROJECT_DIR$/Cylinder Class with Circle Inheritance/Cylinder Class with Circle Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java_Learning.iml" filepath="$PROJECT_DIR$/.idea/Java_Learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kitchen/Kitchen.iml" filepath="$PROJECT_DIR$/Kitchen/Kitchen.iml" />
       <module fileurl="file://$PROJECT_DIR$/POJO/POJO.iml" filepath="$PROJECT_DIR$/POJO/POJO.iml" />
       <module fileurl="file://$PROJECT_DIR$/Person/Person.iml" filepath="$PROJECT_DIR$/Person/Person.iml" />
       <module fileurl="file://$PROJECT_DIR$/Point Class and Distance Calculation/Point Class and Distance Calculation.iml" filepath="$PROJECT_DIR$/Point Class and Distance Calculation/Point Class and Distance Calculation.iml" />
