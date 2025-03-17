@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Animal_Inheritance/Animal_Inheritance.iml" filepath="$PROJECT_DIR$/Animal_Inheritance/Animal_Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayProject/ArrayProject.iml" filepath="$PROJECT_DIR$/ArrayProject/ArrayProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bedroom Composition/Bedroom Composition.iml" filepath="$PROJECT_DIR$/Bedroom Composition/Bedroom Composition.iml" />
       <module fileurl="file://$PROJECT_DIR$/Burger Restaurant App/Burger Restaurant App.iml" filepath="$PROJECT_DIR$/Burger Restaurant App/Burger Restaurant App.iml" />
       <module fileurl="file://$PROJECT_DIR$/Carpet Cost Calculator Class/Carpet Cost Calculator Class.iml" filepath="$PROJECT_DIR$/Carpet Cost Calculator Class/Carpet Cost Calculator Class.iml" />
@@ -20,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism_Challenge/Polymorphism_Challenge.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism_Challenge/Polymorphism_Challenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/SumCalculator/SumCalculator.iml" filepath="$PROJECT_DIR$/SumCalculator/SumCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayProject/UsingArrays/UsingArrays.iml" filepath="$PROJECT_DIR$/ArrayProject/UsingArrays/UsingArrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/Wall Area Computation/Wall Area Computation.iml" filepath="$PROJECT_DIR$/Wall Area Computation/Wall Area Computation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Worker app/Worker app.iml" filepath="$PROJECT_DIR$/Worker app/Worker app.iml" />
     </modules>
