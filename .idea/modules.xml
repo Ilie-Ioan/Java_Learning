@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Animal_Inheritance/Animal_Inheritance.iml" filepath="$PROJECT_DIR$/Animal_Inheritance/Animal_Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/ArrayList/ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayListChallenge/ArrayListChallenge.iml" filepath="$PROJECT_DIR$/ArrayListChallenge/ArrayListChallenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/ArrayProject/ArrayProject.iml" filepath="$PROJECT_DIR$/ArrayProject/ArrayProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bedroom Composition/Bedroom Composition.iml" filepath="$PROJECT_DIR$/Bedroom Composition/Bedroom Composition.iml" />
       <module fileurl="file://$PROJECT_DIR$/Burger Restaurant App/Burger Restaurant App.iml" filepath="$PROJECT_DIR$/Burger Restaurant App/Burger Restaurant App.iml" />
