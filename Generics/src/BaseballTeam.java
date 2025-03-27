@@ -1,7 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class BaseballTeam {
+public class BaseballTeam implements Player {
+
 
     private String teamName;
 
@@ -50,5 +51,10 @@ public class BaseballTeam {
     @Override
     public String toString() {
         return teamName + " (Ranked " + ranking() + ")";
+    }
+
+    @Override
+    public String name() {
+        return "";
     }
 }

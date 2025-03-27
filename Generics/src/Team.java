@@ -1,7 +1,15 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Team<T extends Player> {
+record Affiliation(String name, String type, String countryCode){
+
+    @Override
+    public String toString() {
+        return name + " (" + type + " in " + countryCode + " )";
+    }
+}
+
+public class Team<T extends  Player, S> {
 
     private String teamName;
 
@@ -10,6 +18,13 @@ public class Team<T extends Player> {
     private int totalWins = 0;
     private int totalLooses = 0;
     private int totalTies = 0;
+
+    private S affiliation;
+
+
+    public Team(S affiliation) {
+        this.affiliation = affiliation;
+    }
 
     public Team(String teamName) {
         this.teamName = teamName;
@@ -23,8 +38,11 @@ public class Team<T extends Player> {
     }
 
     public void listTeamMeambers() {
-        System.out.println(teamName + " Roster:");
-        System.out.println(teamMembers);
+        System.out.print(teamName + " Roster:");
+        System.out.println((affiliation == null ? "" : "AFFILIATION: " + affiliation));
+        for(T t : teamMembers){
+            System.out.println(t.name());
+        }
     }
 
     public int ranking() {

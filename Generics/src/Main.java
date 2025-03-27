@@ -1,14 +1,20 @@
-interface Player{}
+interface Player{
+
+    String name();
+
+}
 
 record BaseballPlayer(String name, String position) implements Player{}
 record FootballPlayer(String name, String position) implements Player{}
+record VolleyballPlayer(String name, String position) implements Player{}
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Team<BaseballTeam> philippines1 = new Team<>("Philadelphia Philipines");
-        Team<BaseballTeam> astros1 = new Team<>("Houston Astros");
+        var philly = new Affiliation("city","Philadelphia, PA", "US");
+        BaseballTeam philippines1 = new BaseballTeam("Philadelphia Philipines");
+        BaseballTeam astros1 = new BaseballTeam("Houston Astros");
         scoreResult(philippines1,3,astros1,5);
 
         SportsTeam philippines = new SportsTeam("Philadelphia Philipines");
@@ -27,24 +33,24 @@ public class Main {
         philippines.addTeamMember(marsh);
         philippines.listTeamMeambers();
 
-        Team<FootballPlayer>  LIV = new Team<>("Liverpool");
+        Team<FootballPlayer,Affiliation>  LIV = new Team<>("Liverpool");
         var mo = new FootballPlayer("Mo Salah", "Right Winger");
         LIV.addTeamMember(mo);
 
        // var LEBRON = new BaseballPlayer("Lebron James","Center Fielder");
         //LIV.addTeamMember(LEBRON);
-        LIV.listTeamMeambers();
+        //LIV.listTeamMeambers();
 
-        Team<String> adelaide = new Team<>("Adelaide Storm");
-        adelaide.addTeamMember("N Roberts");
+        Team<VolleyballPlayer,Affiliation> adelaide = new Team<>("Adelaide Storm");
+        adelaide.addTeamMember( new VolleyballPlayer("N Roberts","Setter"));
         adelaide.listTeamMeambers();
 
-        var canberra = new Team<String>("Canberra Heat");
-        canberra.addTeamMember("B black");
+        var canberra = new Team<VolleyballPlayer,Affiliation>("Canberra Heat");
+        canberra.addTeamMember(new VolleyballPlayer("B black","Opposoite"));
         canberra.listTeamMeambers();
         scoreResult(canberra,0, adelaide,1);
 
-        Team<Integer> melbourne = new Team<>("Melbourne Vipers");
+       // Team<Integer> melbourne = new Team<>("Melbourne Vipers");
 
 
 
